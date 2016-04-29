@@ -69,6 +69,15 @@ nav a:hover {
   padding: 11.7px;
 }
 
+footer {
+  background-color: #a9a9a9;
+  color: #fff;
+  }
+
+figcaption {
+  width: 50%;
+}
+
 .banner-text {
   float: right;
   width: 70%;
@@ -127,6 +136,15 @@ nav a:hover {
 .card-body p {
   font-weight: lighter;
   margin-top: 0;
+}
+
+.links {
+  width:60%;
+  align-content: center;
+}
+
+.subs {
+  text-align: center;
 }
 
 @media only screen and (min-width: 25em) {
