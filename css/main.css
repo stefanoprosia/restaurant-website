@@ -29,6 +29,11 @@ h2 {
   line-height: 1.4;
   margin: 0;
   font-family: "Arimo", serif;
+  padding-left: .5em;
+}
+
+p {
+  padding-left: 1em;
 }
 
 body {
@@ -74,10 +79,11 @@ nav a:hover {
 footer {
   background-color: #a9a9a9;
   color: #fff;
+  padding-left: 1em;
 }
 
 .placeholder {
-  width: 50%;
+  width: 100%;
   display: inline-block;
 }
 
@@ -143,6 +149,7 @@ footer {
 .links {
   width:60%;
   align-content: center;
+  padding-left: 1em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -211,4 +218,8 @@ footer {
     font-size: 130%;
     line-height: 1.5;
   }
+}
+
+.links {
+  width: 40%;
 }
